@@ -64,7 +64,7 @@ while True:
         # dstpath 目的地址
         def mycopyfile(srcfile, dstpath):  # 复制函数
             if not os.path.isfile(srcfile):
-                print ("%s not exist!"%(srcfile))
+                print ("%s 文件不存在"%(srcfile))
             else:
                 fpath,fname = os.path.split(srcfile)  # 分离文件名和路径
                 if not os.path.exists(dstpath):
