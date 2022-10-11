@@ -45,9 +45,11 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
 `<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/NS%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E5%8C%BF%E5%90%8D%E4%BA%A4%E6%98%93%E6%AF%94%E7%89%B9%E5%B8%81/1.png?raw=true"> `
 
 ### 修改网站的标题
+
 打开 `blog/nuxt.config.js` 文件。
 找到如下代码：（在文件的第 23 行）这个是我自己的配置：
-```
+
+```json
  head: {
     title: 'NeutronStar的博客',
     meta: [
@@ -66,7 +68,7 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
 把 title 改成自己的，例如：`title: '小王的博客',` 。
 
 打开 `blog/layouts/component/Header.vue` ，把第 4、5、7 行的文字替换为你想要的：这个是我的配置
-```
+```vue
 <template>
   <header class="header">
     <div class="site-name">
@@ -90,7 +92,44 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
     </div>
 ```
 
+### 修改关于页
+
+打开 `blog/pages/about.vue` 文件，修改文件中 6 ~ 20 行的对应汉字内容即可。
+
+```vue
+<template>
+  <div class="wrapper">
+    <h2>关于</h2>
+    <br/><br/>
+
+      正在学习: <br/><br/>
+      HTML、CSS、JavaScript、React、Vue、Flutter、Motoko、Rust、Svelte、Python<br/><br/>
+      产品设计、IC、web3、架构、区块链、智能合约<br/><br/>
+      经济学、英语、哲学、博弈论<br/><br/>
+
+    <br/>
+
+      <strong>联系我：</strong><br/><br/>
+
+      Email:&nbsp;&nbsp; nashzhengpro@gmail.com / 15383620197@qq.com<br/><br/>
+      WeChat:&nbsp;&nbsp; NeutronStarPRO<br/><br/>
+      Twitter:&nbsp;&nbsp; <a href="https://twitter.com/NeutronStar_PRO">@NeutronStar_PRO</a><br/><br/>
+      Github:&nbsp;&nbsp; <a href="https://github.com/NeutronStarPRO">NeutronStarPRO</a><br/><br/>
+      Bilibili:&nbsp;&nbsp; <a href="https://space.bilibili.com/627399227">中子星PRO</a><br/><br/>
+      Discord: NeutronStarPRO#2925
+
+      <br/><br/><br/><br/><br/><br/><br/>
+      <p>
+        Powered by Dfinity Internet Computer blockchain.
+      </p>
+  </div>
+</template>
+```
+
+![image-20221011213635568](assets/README/image-20221011213635568.png)
+
 ## 部署博客文章
+
 1. 使用电脑的命令行进入 blog 文件夹，然后输入 `npm run generate` 命令。
 2. 运行 zzx.py 脚本
 3. 进入 MyICBlog 目录部署，把 MyICBlog 部署到 IC 主网
