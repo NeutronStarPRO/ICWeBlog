@@ -2,7 +2,7 @@ note: 先 `dfx new MyICBlog` ，然后把 `blog/dist` 里的静态文件放进 `
 
 所有 html 文件都放进 `MyICBlog/scr/MyICBlog_assets/src` 里（原有的 index.js 文件不要删掉，原有的 index.html 文件要删掉）
 
-_nuxt 文件夹、favicon、..nojekyll 文件都放 `MyICBlog/scr/MyICBlog_assets/assets` 里
+_nuxt 文件夹、favicon、.nojekyll 文件都放 `MyICBlog/scr/MyICBlog_assets/assets` 里
 
 文件内路径不用变
 
