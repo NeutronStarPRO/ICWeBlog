@@ -1,7 +1,9 @@
 # ICWeBlog
-欢迎使用 ICWeBlog 博客部署工具
+欢迎使用 ICWeBlog 博客部署工具！
 
 你可以使用这个工具在区块链上部署自己的博客网站，不需要依赖第三方的去中心化博客网站！
+
+部署在区块链上的网页响应速度依然非常快，体验极佳！
 
 ## 项目目录结构
 * blog 文件夹用于生成静态博客网页
@@ -42,6 +44,7 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
 `<br>` : 换行的意思，需要空几行就写几个`<br>`。<br>
 
 ### 为文章加入图片
+
 为了让网站打开速度更快，请把文章中的图片上传到 Github 仓库，然后在文章中加入 `<img src="这里放图片链接">` 标签即可。<br>
 例如：
 `<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/NS%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E5%8C%BF%E5%90%8D%E4%BA%A4%E6%98%93%E6%AF%94%E7%89%B9%E5%B8%81/1.png?raw=true"> `
