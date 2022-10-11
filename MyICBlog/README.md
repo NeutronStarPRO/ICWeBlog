@@ -2,7 +2,7 @@ note: 先 `dfx new XXX` ，然后把 dist 里的静态文件放进 XXX/scr/XXX_a
 
 html 文件放进 XXX/scr/XXX_assets/src 里（原有的 index.js 文件不要删掉，原有的 index.html 文件要删掉）
 
-css、js、icon 文件放 XXX/scr/XXX_assets/assets 里
+css、js、icon、img 文件都放 XXX/scr/XXX_assets/assets 里
 
 即可部署
 
