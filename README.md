@@ -31,6 +31,8 @@ categories:
 虚拟世界里有种资产叫 “ Token ” ，人们都喜欢虚拟世界里赚钱，赚到的钱大多数也花在了虚拟世界。
 人们愿意把钱存在虚拟世界的银行里。
 ```
+![image](https://user-images.githubusercontent.com/72973293/195073745-c520109d-bad8-4474-adb9-190db9c4e1a7.png)
+
 就可以了。<br>
 title 是文件标题，date 是文章的时间，tags 是文件的标签（一篇文章可以有好几个标签），categories 是文章分类。<br>
 `<!-- more -->` : 放在文章第一段用于首页预览。<br>
