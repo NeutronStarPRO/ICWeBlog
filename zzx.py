@@ -59,4 +59,20 @@ while True:
             if file_end_name == "html":  
                 shutil.move(src + file, src_tar + file)  # 移动到IC项目的src文件夹里
         
+        # 把index.js文件移动到MyICBlog_assets/src里
+        # srcfile 需要复制、移动的文件
+        # dstpath 目的地址
+        def mycopyfile(srcfile, dstpath):  # 复制函数
+            if not os.path.isfile(srcfile):
+                print ("%s not exist!"%(srcfile))
+            else:
+                fpath,fname = os.path.split(srcfile)  # 分离文件名和路径
+                if not os.path.exists(dstpath):
+                    os.makedirs(dstpath)  # 创建路径
+                shutil.copy(srcfile, dstpath + fname)  # 复制文件
+
+        src_dir = './index.js'
+        dst_dir = './MyICBlog/src/MyICBlog_assets/src/'  # 目的路径记得加斜杠
+        mycopyfile(src_dir, dst_dir)  # 复制文件
+        
     exit(0)  # 移动完毕，进行退出
