@@ -6,7 +6,7 @@
 ## 项目目录结构
 * blog 文件夹用于生成静态博客网页
 * MyICBlog 文件夹是要部署在 IC 主网的项目文件
-* zzx.py 脚本，把生成的静态网站转移到 IC 项目里
+* zzx.py 脚本，把生成的静态网站转移到 IC 项目里。[这里有详细介绍](https://github.com/NeutronStarPRO/ICWeBlog/blob/main/MyICBlog/README.md)
 
 ## 博客说明
 只要把 md 文章放进指定目录里就可以生成静态网站了！
@@ -39,6 +39,7 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
 ### 为文章加入图片
 为了让网站打开速度更快，请把文章中的图片上传到 Github 仓库，然后在文章中加入 `<img src="这里放图片链接">` 标签即可。<br>
 例如：
+<br>
 `<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/NS%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E5%8C%BF%E5%90%8D%E4%BA%A4%E6%98%93%E6%AF%94%E7%89%B9%E5%B8%81/1.png?raw=true"> `
 
 ### 修改网站的标题
@@ -74,7 +75,7 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
       </p>
     </div>
 ```
-你可以换成，例如：
+你可以换成，例如：(小王)
 ```
 <template>
   <header class="header">
@@ -88,7 +89,9 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
 ```
 
 ## 部署博客文章
-1. 使用电脑的命令行进入 blog 文件夹，然后输入 `npm run generate` 命令。
+1. 使用电脑的命令行工具进入 blog 文件夹，然后输入 `npm run generate` 命令。
+cd 
 2. 运行 zzx.py 脚本
-3. 进入 MyICBlog 目录部署，把 MyICBlog 部署到 IC 主网
+
+3. 命令行进入 MyICBlog 目录，把 MyICBlog 部署到 IC 主网
 
