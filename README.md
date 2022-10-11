@@ -49,7 +49,7 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
 打开 `blog/nuxt.config.js` 文件。
 找到如下代码：（在文件的第 23 行）这个是我自己的配置：
 
-```
+```json
  head: {
     title: 'NeutronStar的博客',
     meta: [
@@ -80,7 +80,7 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
     </div>
 ```
 你可以换成，例如：
-```vue
+```
 <template>
   <header class="header">
     <div class="site-name">
@@ -128,9 +128,15 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
 
 ![image-20221011213635568](assets/README/image-20221011213635568.png)
 
+
+
 ## 部署博客文章
 
-1. 使用电脑的命令行进入 blog 文件夹，然后输入 `npm run generate` 命令。
-2. 运行 zzx.py 脚本
-3. 进入 MyICBlog 目录部署，把 MyICBlog 部署到 IC 主网
+1. 使用电脑的命令行进入 blog 文件夹，然后输入 `npm run generate` 命令  [这里查看详细教程 ](如何生成网站.md) 
+2. 运行 zzx.py 脚本  [这里查看详细教程](Python的作用) 
+3. 进入 MyICBlog 目录部署，把 MyICBlog 部署到 IC 主网  [这里查看详细教程](如何把项目部署到IC主网) 
+
+
+
+
 
