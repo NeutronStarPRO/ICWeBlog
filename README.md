@@ -51,7 +51,7 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
 打开 `blog/nuxt.config.js` 文件。
 找到如下代码：（在文件的第 23 行）这个是我自己的配置：
 
-```json
+```
  head: {
     title: 'NeutronStar的博客',
     meta: [
