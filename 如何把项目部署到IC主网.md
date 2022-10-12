@@ -8,7 +8,7 @@
 
 <br>
 
-先在命令行中转到 MyICBlog 的目录
+先在命令行中转到 MyICBlog 的目录 （注意：是在 MyICBlog 目录下操作，不是在 ICWeBlog 下）
 
 安装依赖包
 
