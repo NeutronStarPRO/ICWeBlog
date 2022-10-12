@@ -16,4 +16,4 @@
 * 所有 html 文件都移动到 `MyICBlog/src/MyCBlog_assets/src` 里；             
  （注意：这个目录下原有的 index.js 文件要保留下来；原有的 html 文件可以删掉）
 
-*` _nuxt`、`favicon.ico`、`.nojekyll` 这 3 个都移动到 `MyICBlog/src/MyCBlog_assets/assets` 里，即可。
+* ` _nuxt`、`favicon.ico`、`.nojekyll` 这 3 个都移动到 `MyICBlog/src/MyCBlog_assets/assets` 里，即可。
