@@ -10,6 +10,8 @@
 
 先在命令行中转到 MyICBlog 的目录
 
+安装依赖包
+
 ```bash
 npm install
 ```
@@ -25,6 +27,7 @@ dfx deploy
 ```
 
 在主网部署项目：
+
 ```bash
 dfx deploy --network ic
 ```
