@@ -1,9 +1,15 @@
 ## Pythhon的作用
 
-生成的静态网页都在 blog/dist 文件夹里
+生成的静态网页都在 `blog/dist` 文件夹里
 
-这个 zzx.py 的作用就是把 blog/dist 里的文件移动到 IC 项目的对应位置里
+这个 zzx.py 的作用就是把 `blog/dist` 里的文件移动到 IC 项目的对应位置里
+
+<br>
 
 如果不想运行 Python 文件，可以手动移动：
 
-所有前端的文件都放在 MyICBlog/src/assets_MyCBlog/ 里
+所有前端的文件都放在 `MyICBlog/src/MyCBlog_assets/` 里；
+
+所有 html 文件都移动到 `MyICBlog/src/MyCBlog_assets/src` 里；
+
+_nuxt、favicon.ico、.nojekyll 这 3 个都移动到 `MyICBlog/src/MyCBlog_assets/assets` 里，即可。
