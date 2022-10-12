@@ -7,16 +7,16 @@
 
 ```bash
 # 安装
-$ npm install
+npm install
 
 # 启动
-$ npm run dev
+npm run dev
 
 # 构建
-$ npm run build
-$ npm run start
+npm run build
+npm run start
 
 # 生成
-$ npm run generate
+npm run generate
 ```
 
