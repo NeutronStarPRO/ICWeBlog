@@ -11,10 +11,14 @@
 
 可以根据自己喜好修改前端页面，做不同风格的主页，欢迎 pr 。
 
+
+
 ## 项目目录结构
 * blog 文件夹用于生成静态博客网页
 * MyICBlog 文件夹是要部署在 IC 主网的项目文件
 * zzx.py 脚本，把生成的静态网站转移到 IC 项目里
+
+
 
 ## 博客说明
 
@@ -54,7 +58,11 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
 
 为了让网站打开速度更快，请把文章中的图片上传到 Github 仓库，然后在文章中加入 `<img src="这里放图片链接">` 标签即可。<br>
 例如：
-`<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/NS%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E5%8C%BF%E5%90%8D%E4%BA%A4%E6%98%93%E6%AF%94%E7%89%B9%E5%B8%81/1.png?raw=true"> `
+`<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/NS%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E5%8C%BF%E5%90%8D%E4%BA%A4%E6%98%93%E6%AF%94%E7%89%B9%E5%B8%81/1.png?raw=true"> ` 
+
+查看详细教程： [如何把图片上传到 Github ？](如何为网站文章添加图片.md) 
+
+
 
 ### 修改网站的标题
 
@@ -154,6 +162,9 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
 
 ## 怎么发布新文章
 
-因为网站是静态的，所以**每次更新文章需要把 markdown 文章放进文件夹、生成网页，然后再重新部署到 IC 上。** 
+因为网站是静态的，所以**每次更新文章需要把 markdown 文章放进文件夹、生成网页，然后再重新部署到 IC 上。**
 
 优点是访问时速度非常快，价格非常便宜。因为几乎没怎么占 canister 的存储空间、又是静态网页，消耗的 cycles 非常少！
+
+
+
