@@ -1,4 +1,4 @@
-## Pythhon的作用
+## Python文件的作用
 
 生成的静态网页都在 `blog/dist` 文件夹里
 
