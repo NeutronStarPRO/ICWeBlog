@@ -155,8 +155,8 @@ title 是文件标题，date 是文章的时间，tags 是文件的标签（一�
 ## 部署博客文章
 
 1. 使用电脑的命令行进入 blog 文件夹，然后输入 `npm run generate` 命令，生成静态网页  [这里查看详细教程 ](如何生成网站.md) 
-2. 运行 zzx.py 脚本，把生成的网页文件放进对应的 MyICBlog 项目里  [这里查看详细教程](Python的作用) 
-3. 进入 MyICBlog 目录部署，把 MyICBlog 部署到 IC 主网  [这里查看详细教程](如何把项目部署到IC主网) 
+2. 运行 zzx.py 脚本，把生成的网页文件放进对应的 MyICBlog 项目里  [这里查看详细教程](Python的作用.md) 
+3. 进入 MyICBlog 目录部署，把 MyICBlog 部署到 IC 主网  [这里查看详细教程](如何把项目部署到IC主网.md) 
 
 
 
