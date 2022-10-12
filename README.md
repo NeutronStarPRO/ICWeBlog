@@ -19,7 +19,7 @@
 ## 博客说明
 只要把 md 文章放进指定目录里就可以生成静态网站了！
 ### md文件格式
-只要按如下格式写好 marketdown 文件，然后把 marketdown 文件放进 `blog/content/blog/` 里：
+只要按如下格式写好 markdown 文件，然后把 markdown 文件放进 `blog/content/blog/` 里：
 ```
 ---
 title: 后知后觉
