@@ -16,6 +16,8 @@
 npm install
 ```
 
+#### 本地部署测试
+
 先在本地环境测试一下效果：
 
 打开 2 个命令行窗口，一个输入：
@@ -32,7 +34,11 @@ dfx deploy
 
 
 
-在主网部署项目：
+#### 主网部署项目
+
+```bash
+dfx ping ic
+```
 
 ```bash
 dfx deploy --network ic
