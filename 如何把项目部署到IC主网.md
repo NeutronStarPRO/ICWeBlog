@@ -36,9 +36,13 @@ dfx deploy
 
 #### 主网部署项目
 
+检测网络环境：
+
 ```bash
 dfx ping ic
 ```
+
+部署项目：
 
 ```bash
 dfx deploy --network ic
