@@ -47,3 +47,5 @@ dfx ping ic
 ```bash
 dfx deploy --network ic
 ```
+
+![image](https://user-images.githubusercontent.com/72973293/195795044-e8b05769-ea7a-4558-83c6-b5d8a68b84a2.png)
