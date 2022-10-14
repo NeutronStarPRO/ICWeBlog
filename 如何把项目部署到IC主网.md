@@ -202,6 +202,6 @@ dfx canister --network ic stop --all
 # 删除canister里的代码
 dfx canister --network ic uninstall-code --all
 # 删除canister并回收cycles
-dfx canistet --network ic delete --all
+dfx canister --network ic delete --all
 ```
 
