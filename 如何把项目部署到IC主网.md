@@ -108,7 +108,7 @@ dfx deploy --network ic
 
 <br>
 
-#### dfx 常用命令
+#### dfx 常用命令  (dfx版本：0.9.3)
 
 ```bash
 # 查询dfx版本
