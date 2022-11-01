@@ -155,8 +155,8 @@ dfx ledger --network ic create-canister $(dfx identity get-principal) --amount 1
 dfx identity --network ic deploy-wallet <canister-id>
 # 当前钱包的cycles余额
 dfx wallet --network ic balance
-# 给钱包充值
-dfx wallet --network ic send $(dfx --identity developer identity get-wallet) 80000590000
+# 给默认身份下的cycles钱包充值（后面那个数量根据情况调整）
+dfx wallet --network ic send $(dfx identity default get-wallet) 80000590000
 ```
 
 
