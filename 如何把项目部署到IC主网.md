@@ -1,6 +1,6 @@
 ## 把 MyICBlog 项目部署到 IC 主网
 
-#### 如何安装 dfx 开发工具（ IC 开发 SDK ）
+#### 如何安装 dfx 开发工具（ IC 开发 SDK , 最好是 0.9.3 版的 ）
 
 https://internetcomputer.org/docs/current/developer-docs/build/install-upgrade-remove
 
