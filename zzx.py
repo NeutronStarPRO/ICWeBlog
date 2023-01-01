@@ -11,7 +11,7 @@ archives_path = os.path.abspath("blog/dist/archives")
 blog_path = os.path.abspath("blog/dist/blog")
 categories_path = os.path.abspath("blog/dist/categories")
 tags_path = os.path.abspath("blog/dist/tags")
-guestbook_path = os.path.abspath("blog/dist/guestbook")
+# guestbook_path = os.path.abspath("blog/dist/guestbook")
 
 assets_target_path = os.path.abspath("MyICBlog/src/MyICBlog_assets/assets")  # 移动到assets目录
 assets_tar = assets_target_path + "/"
@@ -46,7 +46,7 @@ while True:
             shutil.move(blog_path, src_tar)
             shutil.move(categories_path, src_tar)
             shutil.move(tags_path, src_tar)
-            shutil.move(guestbook_path, src_tar)
+            # shutil.move(guestbook_path, src_tar)
         else:
             print("文件夹不存在")
 
@@ -76,3 +76,4 @@ while True:
         mycopyfile(src_dir, dst_dir)  # 复制文件
         
     exit(0)  # 移动完毕，进行退出
+
