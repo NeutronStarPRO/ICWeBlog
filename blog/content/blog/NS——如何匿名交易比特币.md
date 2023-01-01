@@ -1,11 +1,11 @@
 ---
 title: NS——一种匿名兑换比特币的方法
 date: 2022-09-22
-tags:
- - 未来梦想家
 categories:
- - ICP
- - 产品设计
+ - Computer technology
+tags:
+ - Chinese & 中文
+ - IC
 ---
 
 如何才能完全匿名的交易比特币？
@@ -20,15 +20,15 @@ categories:
 
 <br>
 
-我在 IC 网络上设计了一个方法，黑洞 canister 是一个不受任何人控制的“ 智能合约 ”，不过可以让别人给黑洞容器充值 Cycles 来维持容器运行。
+我在 IC 网络上设计了一个方法，黑洞 canister 是一个不受任何人控制的“ 智能合约 ”，不过可以让别人给黑洞容器充值 cycles 来维持容器运行。
 
 发 1 个比特币和一点 “ Gas ” ，黑洞 canister 就会创建 1 个 NS 钱包 canister ，然后发 1 个 NS 给钱包，再把钱包 canister 的控制权交给用户。拿着 NS 去交易所卖钱就无法溯源了，因为 NS 就没有 “ 源 ” ！
 
 <br>
 
-所有 NS 都是由 BTC 兑换来的！
+所有 NS 都是由 BTC 兑换过来的！
 
-![img](https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/NS%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E5%8C%BF%E5%90%8D%E4%BA%A4%E6%98%93%E6%AF%94%E7%89%B9%E5%B8%81/2.jpg?raw=true)
+<img src="https://s1.imagehub.cc/images/2022/12/13/0f13829e1b8a99597dc67e4c91e10826.png">
 
 <br>
 
@@ -53,29 +53,13 @@ categories:
 
 <br>
 
-两个 canister 之间**确认身份**的过程也很简单，就是用非对称加密算法验证双方的 Root word 是否相同：
+两个 canister 之间**确认身份**的过程也很简单：在创建钱包时把公钥哈希一下存进黑洞 canister 的默克尔树里。在交易之前，把对方的公钥也哈希一下，然后去黑洞 canister 里的默克尔树验证有没有这个公钥的哈希。
+
+（黑洞 canister 里存所有钱包公钥哈希的默克尔树）
 
 <br>
 
-黑洞 canister 创建钱包 canister 时通过端到端加密发送 Root word 到钱包里。收到 Root word 后立即用 AES 256 把 Root word 保护起来。🔒
-
-![img](https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/NS%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E5%8C%BF%E5%90%8D%E4%BA%A4%E6%98%93%E6%AF%94%E7%89%B9%E5%B8%81/2.jpg?raw=true)
-
-钱包发送 NS 前，互发公钥给对方。
-
-<br>
-
-双方用公钥加密自己的 Root word 的哈希再发给对方。
-
-<br>
-
-用私钥解密后，对比自己的 Root word 的哈希，一样就通过认证。
-
-<br>
-
-假如 A 钱包要给 B 钱包发送 NS ：
-
-![image-20221011144829550](https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/NS%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E5%8C%BF%E5%90%8D%E4%BA%A4%E6%98%93%E6%AF%94%E7%89%B9%E5%B8%81/1.png?raw=true)
+<img src="https://s1.imagehub.cc/images/2022/12/13/32267078f7b727a8fad374dafb737e8d.png">
 
 <br>
 

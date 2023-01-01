@@ -20,19 +20,19 @@
 import { formatArticles, formatDate } from '@/util'
 export default {
   async asyncData() {
-    const context = await require.context('~/content/blog', true, /\.md$/)
+    const context = await require.context('~/content/blog', true, /\.md$/);
     const articles = await context.keys().map(key => ({
       ...context(key),
       date: context(key).attributes.date,
       path: `/blog/${key.replace('.md', '').replace('./', '')}`
     }))
-    // articles.sort((a, b) => new Date(b.attributes.date).getTime() - new Date(a.attributes.date).getTime())
-    return { archives: formatArticles(articles, articles.length) }
-    // console.log(articles)
+    // articles.sort((a, b) => new Date(b.attributes.date).getTime() - new Date(a.attributes.date).getTime());
+    return { archives: formatArticles(articles, articles.length) };
+    // console.log(articles);
   },
   methods: {
     formatDate(date) {
-      return formatDate(date)
+      return formatDate(date);
     }
   }
 }
@@ -42,7 +42,7 @@ export default {
 .archive {
   padding: 25px 0 15px;
   .archive-list {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 2;
     padding-bottom: .8em;
     .archive-item {

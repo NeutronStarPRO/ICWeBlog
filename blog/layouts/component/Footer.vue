@@ -1,13 +1,13 @@
 <template>
   <footer class="footer">
     <div class="wrapper">
-      Copyright © 2022 <a href="/">Nash Zheng</a>
+      <a href="/About">Nash Zheng</a> 2023
     </div>
   </footer>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style lang="scss" scoped>
@@ -24,6 +24,13 @@ export default {}
 @media print, screen and (max-width: 48em) {
   .footer {
     width: 100%;
+  }
+}
+@media screen and (prefers-color-scheme: dark) {
+  .footer {
+    .wrapper {
+      color: #a7b1b7;
+    }
   }
 }
 </style>

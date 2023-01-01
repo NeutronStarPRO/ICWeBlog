@@ -4,28 +4,19 @@
       <h1 class="hidden">NeutronStarPRO</h1>
       <nuxt-link class="logo" to="/">NeutronStarPRO</nuxt-link>
       <p class="description">
-        欢迎来到我的个人博客，我会在这里记录下关于学习和生活的点点滴滴
+        Welcome to my blog, where I will record bits and pieces about my study and life!
       </p>
     </div>
     <div class="nav-menu">
       <nuxt-link to="/" class="nav-link" exact-active-class="current">
-        <i class="fa fa-home"> 首页</i>
+        <i class="fa fa-home"> Home</i>
       </nuxt-link>
       <nuxt-link to="/archives" class="nav-link" exact-active-class="current">
-        <i class="fa fa-archive"> 归档</i>
+        <i class="fa fa-archive"> Archives</i>
       </nuxt-link>
-      <!-- <nuxt-link to="/tags" class="nav-link" exact-active-class="current">
-        <i class="fa fa-tag"> 标签</i>
-      </nuxt-link> -->
       <nuxt-link to="/about" class="nav-link" exact-active-class="current">
-        <i class="fa fa-user"> 关于</i>
+        <i class="fa fa-user"> About</i>
       </nuxt-link>
-      <!-- <nuxt-link to="/history" class="nav-link" exact-active-class="current">
-        <i class="fa fa-book"> 历史</i>
-      </nuxt-link> -->
-      <!-- <nuxt-link to="/guestbook" class="nav-link" exact-active-class="current">
-        <i class="fa fa-comments"> 留言</i>
-      </nuxt-link> -->
     </div>
   </header>
 </template>
@@ -101,6 +92,34 @@ export default {};
         line-height: 27px;
         height: 27px;
         font-size: 13px;
+      }
+    }
+  }
+}
+@media screen and (prefers-color-scheme: dark) {
+  .header {
+    border-bottom: 1px solid #ddd;
+    .site-name {
+      .logo {
+        color: rgb(229, 226, 226);
+        &:hover {
+          color: rgb(113, 112, 112);
+        }
+      }
+      .description {
+        color: rgb(233, 232, 232);
+      }
+    }
+    .nav-menu {
+      .nav-link {
+        color: rgb(204, 203, 203);
+        &:hover {
+          border-bottom-color: #252525;
+        }
+        &.current {
+          border: 1px solid #ddd;
+          border-bottom-color: #fff;
+        }
       }
     }
   }

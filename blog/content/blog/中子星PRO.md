@@ -1,11 +1,12 @@
 ---
 title: 中子星笔记
 date: 2022-08-01
-tags:
- - 自述
+time: 27 minutes
 categories:
- - 经历
- - 中子星知识库绝密档案
+ - About me
+tags:
+  - Chinese & 中文
+  - Experience & 经历
 ---
 
 币圈让我接触了区块链技术、密码学、经济学、交易法则、各种操盘法、去中心化的互联网模式等等······
@@ -32,27 +33,25 @@ web3 领域融合了地球上几乎最赚钱的两个行业：计算机和金融
 
 在躲过车展工作人员热情的推销之后我们溜到了会展中心的门口，发现这里正在举办 2020世界区块链大会 。遂，入之。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/image-20220916234504513.png?raw=true" alt="image-20220916234504513"/>
+<img src="https://s1.imagehub.cc/images/2022/12/13/f5ce5d0345130d431e202f664c407195.png" alt="image-20220916234504513"/>
 
 现在已经记不清当时大佬们讨论了什么，那时候我完全不懂区块链是什么东西，更不知道以太坊、波卡是啥。只是觉得非常高级，整场圆桌讨论听完，我发现我唯一懂的一个词就是 Web ，因为我学了一点 Web 开发，可 Web3.0 是啥。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1663323355964.jpg?raw=true" style="zoom: 60%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/8b63f3934c20f66814353205081fec90.jpeg" style="zoom: 60%;" />
 
 虽然听不懂，但是当人们举起手机拍照时，我也假装拍一张。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1663323356098.jpg?raw=true" alt="1663323356098" style="zoom:20%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/02da167c0c4a5874cec0893310db986b.jpeg" alt="1663323356098" style="zoom:20%;" />
 
 现在知道是波卡白皮书里的中继链了，跨链，支持一键发链。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1663323355970.jpeg?raw=true" alt="1663323355970" style="zoom:25%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/e9d520a8fbb2c94311b3c138abbe95ec.jpeg" alt="1663323355970" style="zoom:25%;" />
 
 现场照片，座位周围也站了很多人。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1663323356109.jpg?raw=true" alt="1663323356109" style="zoom:20%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/73b44fb3e31e050574eb197f3d2052c0.jpeg" alt="1663323356109" style="zoom:20%;" />
 
-
-
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1663323356092.jpg?raw=true" alt="1663323356092" style="zoom:23%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/129e0f122f12bf5f5046e3a091c30ce7.jpeg" alt="1663323356092" style="zoom:23%;" />
 
 那天回去，我把百度、知乎打开，在里面一个接一个的搜索了 “ 区块链 ” 、“ 波卡 ” 、“ 以太坊 ” 、“ 比特币 ” ，在读了几篇科普长文后基本弄清楚它们的原理了。
 <br>
@@ -81,17 +80,17 @@ web3 领域融合了地球上几乎最赚钱的两个行业：计算机和金融
 
 当大街上几乎每个人都在谈论数字货币的时候，说明市场已经过热了，你就要警惕了，这时候头顶的大镰刀随时有可能落下。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/image-20220916190911146.png?raw=true" alt="image-20220916190911146" style="zoom:33%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/2b68419becebe3b942be1a4fc8b0c2da.png" alt="image-20220916190911146" style="zoom:33%;" />
 
 币圈大致可以抽象为 3 方之间的交易：
 
 新进入的钱一般来自散户，一部分流向交易所的手续费，还有个别盈利的散户，绝大部分都还是流向庄家。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/image-20220916185508888.png?raw=true" alt="image-20220916185508888" style="zoom:57%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/978365501abe21e8ab119e1724d6267f.png" alt="image-20220916185508888" style="zoom:57%;" />
 
 我在 Shib 上的亏损相当于给币圈的 “ 学费 ” ：
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/image-20220916183744274.png?raw=true" alt="image-20220916183744274" style="zoom:67%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/b7bdb6a098fbd410181f693f273c079a.png" alt="image-20220916183744274" style="zoom:67%;" />
 
 市场的资金是守恒的。如果站在上帝视角，随着时间的流逝，你会看到散户的钱越来越少，庄家的钱越来越多。但散户人数越来越多。
 
@@ -119,11 +118,11 @@ web3 领域融合了地球上几乎最赚钱的两个行业：计算机和金融
 
 尽量不要预测价格走势，因为它可能是黑夜前的黄昏：
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/image-20220917151347640.png?raw=true" style="zoom:50%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/0c22be081012673d82ab5d41446b0c22.png" style="zoom:50%;" />
 
 也可能是黎明前的暂时黑暗：
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/image-20220917151631504.png?raw=true" style="zoom:50%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/a9d9c3e8308d77cc62fabab64c6a0937.png" style="zoom:50%;" />
 
 利好或者利空消息很可能是庄家为了拉盘或者出货放出来的。
 
@@ -139,11 +138,11 @@ web3 领域融合了地球上几乎最赚钱的两个行业：计算机和金融
 
 5月19，“ 史称 ” 5.19 大跌🐶。我在图书馆里看着比特币从山顶失足、从断崖自由落体······
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1663323356084.jpg?raw=true" alt="1663323356084" style="zoom:27%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/f481e528fab7487564fac3edb6d8cd99.jpeg" alt="1663323356084" style="zoom:27%;" />
 
 当时的截图。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1663386562275.jpg?raw=true" alt="1663386562275" style="zoom:27%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/b7f3b8a6edffef5c98621c5843d93132.jpeg" alt="1663386562275" style="zoom:27%;" />
 
 这次下跌之后，我开始关注学习联盟链。微众银行的 FISCO 、IBM 的 Fabric 、蚂蚁链 还有 BSN 的武汉链、文昌链、泰安链。
 
@@ -171,21 +170,29 @@ web3 领域融合了地球上几乎最赚钱的两个行业：计算机和金融
 
 
 
+让钱生钱可以使资产进入指数型增长，在初始阶段攒钱很关键，需要 “ 延迟满足感 ” ，到后期财富就会多得不可思议。
+
+如果在初期断了，那就得重新开始积攒了。
+
+我把 20% 的储蓄用来投资高风险高收益产品，剩下的 80% 投资低风险低收益产品。
+
+
+
 ## 中子星与脉冲星
 
 2021年11月，我报名了 dfinity 举办的中国黑客松，并开始学习在 IC 上开发项目。
 
 在 IC 社区里认识了很多朋友，他们都很热情的回答我的问题，提供帮助，层楼、Lydia、廖老师、昆哥 ······
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1663388936189.jpg?raw=true" alt="1663388936189" style="zoom:20%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/122339078ff2ea1b01702ca9bed4c3f0.jpeg" alt="1663388936189" style="zoom:20%;" />
 
-帮 Lydia 做的网页大致长这样，没有适配移动端，在 PC 端还能凑乎看 ~
+帮 Lydia 做的[网页](https://no2h2-riaaa-aaaag-qagua-cai.ic0.app)大致长这样，没有适配移动端，在 PC 端还能凑乎看 ~
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1663323356050.jpeg?raw=true" alt="1663323356050" style="zoom: 20%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/f6656a252b11280d7a474c7d03a4906f.jpeg" alt="1663323356050" style="zoom: 20%;" />
 
 做完这个，我开始构思基于 IC 的 NFT 博客，博客存在作者自己的 canister （容器）里，发布文章时，发给社区的 canister ，然后返回给读者浏览；作者文章的价值通过算法由 观看时长、浏览量、点赞数、评论 等等一系列互动数据决定。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/image-20220917143900188.png?raw=true" alt="image-20220917143900188" style="zoom:37%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/97a9df9a22ab5fc64dc51ea8c1642234.png" style="zoom:37%;" />
 
 ### 产品
 
@@ -193,7 +200,7 @@ web3 领域融合了地球上几乎最赚钱的两个行业：计算机和金融
 
 我们在一起探寻在 Web3 社交方向的各种可能性 ······ 
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1663323356023.jpeg?raw=true" alt="1663323356023" style="zoom:20%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/02b33b4ccb95e3059f6db4a62682a766.jpeg" style="zoom:20%;" />
 
 做产品都是尽可能的让用户方便，让用户能动一下手指绝对不动两下，就是懒人式服务，一站式服务，极其便捷，什么东西都给用户准备好了，恨不得变成保姆了。
 
@@ -270,7 +277,7 @@ Web3 最吸引人的地方在于带来了权力下放，但是也不能把权力
 
 比特币网络实现了一种分布式、无中心化的点对点交易网络。大致就是长这样：
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/image-20220917101224242.png?raw=true" style="zoom:50%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/d1cc809794da7dd1631888de84624c76.png" style="zoom:50%;" />
 
 假如我跟你借了 10 块钱，这件事就只有咱俩知道。某一天，你忘了或者我不记得了或者我赖账了或者我把你绑架了、软禁起来。我就不用还这 10 块钱了！总之，我有一百种方法赖账。反正，没写借条，又没留下什么证据嘛。
 
@@ -288,7 +295,7 @@ Web3 最吸引人的地方在于带来了权力下放，但是也不能把权力
 
 而我们平时用的 淘宝、抖音、百度、Twitter、Google 都有一堆它们自己维护的服务器，所有用户都通过访问他们的服务器来获取网络信息，和其他用户交互。就像这样：
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/image-20220917102028388.png?raw=true" style="zoom:67%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/46f41b95a020dee272ab8997815bc4e4.png" style="zoom:67%;" />
 
 想象一下，你所有的数据都存在王者荣耀的服务器里。如果哪一天王者荣耀停服了，那么你充钱买的所有 皮肤、英雄、游戏数据 都立马消失！
 
@@ -344,7 +351,7 @@ NFT 叫 “ 非同质化代币 ” ，是你在区块链里的资产。
 
 各种 图片、视频、音频、3D模型、游戏装备 都可以做成 NFT 。这个是我的 NFT ：
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/image-20220917112606001.png?raw=true" alt="image-20220917112606001" style="zoom:50%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/f7872f4571f568a7adafe9821264a884.png" style="zoom:50%;" />
 
 
 
@@ -354,7 +361,7 @@ NFT 叫 “ 非同质化代币 ” ，是你在区块链里的资产。
 
 IC 的节点在大型数据中心，普通人的小电脑不能当节点，不像 BTC 那样浪费 ，最后又有回归中心化的趋势：各种 BTC 矿池、把小电脑集中到一起挖矿，这样一来又把原本非常去中心化的网络合并成了几大节点（矿场）。所以 BTC 他也没法做到越来越去中心化。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1663323356062.jpg?raw=true" alt="1663323356062" style="zoom:25%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/75fa6a03d000f92f3d8fa671d8d0a555.md.jpeg" alt="1663323356062" style="zoom:25%;" />
 
 总的来说，去中心化程度、达成共识速度、安全性就类似一个不可能三角只能达成三项中的两项，没法 3 个都做的非常好，必须得有妥协的地方。（或者 3 项都要，3 项都很平庸）IC 就可以很好的平衡这 3 点（虽然去中心化不够彻底、不能完美达到这 3 点，但是很好的平衡了这 3 点）
 
@@ -372,9 +379,9 @@ IC 的节点在大型数据中心，普通人的小电脑不能当节点，不�
 
 当 IC 上的生态越来越繁荣，越来越多的企业、组织在 IC 上部署去中心化应用 Dapp 时，就需要把 ICP 燃烧成 Cycles 交部署应用的费用。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/v2-6f76c5d7dd706cd0782db4a08f993ac6_720w.jpg?raw=true" alt="image-20220515160844691" style="zoom: 20%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/e01558d6d10d8cbb7e46d05b12b75a36.jpeg" />
 
-Cycles 是用来供智能合约运行的费用。 ICP 只能单向燃烧成 Cycles ，没法再变回 ICP，ICP 与 Cycles 的汇率根据ICP价格动态调整，永远保持稳定的兑换一定数量的 Cycles ；这样ICP就会越来越少，随着 IC 网络使用者不断增加，更多的人会购买 ICP 来运行智能合约， IC 网络的价值也会不断增加。
+Cycles 是用来供智能合约运行的费用。 ICP 只能单向燃烧成 Cycles ，没法再变回 ICP，ICP 与 Cycles 的汇率根据ICP价格动态调整，永远保持稳定的兑换一定数量的 Cycles ；这样 ICP 就会越来越少，随着 IC 网络使用者不断增加，更多的人会购买 ICP 来运行智能合约， IC 网络的价值也会不断增加。
 
 
 
@@ -384,7 +391,7 @@ IC 由一堆**子网** ( Subnet ) 组成，没有母网、主链、侧链、信�
 
 **数据中心**通过 IC 的节点软件虚拟化为一堆**节点**，再用随机算法选取一些节点组成一个**子网**。所以一个子网里由多个数据中心的节点组成。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/1.png?raw=true" alt="image-20220515160844691" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/406233a500e8746003b08ee4d1d7b3ce.png" alt="1" />
 
 子网数量也不固定，而是随着网络的资源使用情况动态地增加、合并。某个节点加入哪个子网、某个子网由哪些节点组成、选几个节点创建新子网、把一个子网拆分成 2 个子网，都由 NNS 决定。所以 IC 可以无限扩容，在世界各地新增子网。数据中心想要加入 IC 网络，需要获得 NNS 的投票许可，这种投票一般都是在要扩容时进行
 
@@ -408,7 +415,7 @@ IC 由一堆**子网** ( Subnet ) 组成，没有母网、主链、侧链、信�
 
 root key 是公开的，客户端浏览器可以用 root key 验证消息是不是 IC 网络发过来的、有没有被篡改。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/3.png?raw=true" alt="3" style="zoom:20%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/840d87a3d0072a1810500cf0cba38b33.png" alt="3" style="zoom:20%;" />
 
 #### NNS
 
@@ -430,7 +437,7 @@ ETH 是一台同步的状态更新机器，由交易触发智能合约，对状�
 
 >   浏览器支持 wasm 才能打开 Dapp 。需要浏览器先加载一个 Service Woker 检查浏览器是否支持 wasm 、用 root key 验证前端的内容。
 
-<img src="https://github.com/NeutronStarPRO/NeutronStarPROBolgPicOnIC/blob/main/%E4%B8%AD%E5%AD%90%E6%98%9FPRO/image-20220515165856011.png?raw=true" alt="image-20220515165856011" style="zoom: 67%;" />
+<img src="https://s1.imagehub.cc/images/2022/12/13/385b64c97e85d166c0f1b96aca791e33.png" alt="image-20220515165856011" style="zoom: 67%;" />
 
 Canister 对外提供 2 种调用方法：**update call** 和 **query call** 。
 
@@ -462,7 +469,6 @@ Web1 时没有分前后端，架构也很简单。技术不断进步，我们有
 
 
 前端工程师师肯定是掌握好基本的前端技术基础的，正所谓一转多长，首先你得先精通一门，其次，掌握前端技术的同时，还要了解前端技术之外的技能。跳出前端这个思维，才能看到的更多。
-
 
 
 

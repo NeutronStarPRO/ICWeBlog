@@ -10,11 +10,14 @@
         <div class="article-date">
           {{ formatDate(article.attributes.date) }}
         </div>
+        <div class="article-read-time">
+            {{ readTime(article.attributes.time) }}
+        </div>
       </div>
       <div class="article-content markdown-body" v-html="article.summary"></div>
       <div class="article-more">
         <nuxt-link class="link" :to="article.path">
-          阅读全文
+          Read more
         </nuxt-link>
       </div>
     </article>
@@ -25,44 +28,47 @@
 </template>
 
 <script>
-import Pager from '@/components/Pager'
-import { perHomeCount } from '@/config'
-import { getArticles, getPagerCount, formatDate } from '@/util'
+import Pager from '@/components/Pager';
+import { perHomeCount } from '@/config';
+import { getArticles, getPagerCount, formatDate, readTime } from '@/util';
 
 export default {
-  async asyncData () {
-    const context = await require.context('~/content/blog', true, /\.md$/)
-    // console.log(context(context.keys()[0]))
+  async asyncData() {
+    const context = await require.context('~/content/blog', true, /\.md$/);
+    // console.log(context(context.keys()[0]));
     const articles = await context.keys().map(key => ({
       ...context(key),
       summary: context(key).html.split('<!-- more -->')[0],
       path: `/blog/${key.replace('.md', '').replace('./', '')}`
     }))
     // TODO 使用脚本来生成文章，默认添加标题和时间，根据生成时的创建时间来排序
-    articles.sort((a, b) => new Date(b.attributes.date).getTime() - new Date(a.attributes.date).getTime())
-    return { articles: getArticles(1, perHomeCount, articles), allArticles: articles }
+    articles.sort((a, b) => new Date(b.attributes.date).getTime() - new Date(a.attributes.date).getTime());
+    return { articles: getArticles(1, perHomeCount, articles), allArticles: articles };
   },
   components: {
     Pager
   },
-  data () {
+  data() {
     return {
       currentPage: 1,
     }
   },
   computed: {
     pagerCount() {
-      return getPagerCount(this.allArticles.length, perHomeCount)
+      return getPagerCount(this.allArticles.length, perHomeCount);
     },
   },
   methods: {
     updatePage(page) {
-      this.currentPage = page
-      this.articles = getArticles(page, perHomeCount, this.allArticles)
+      this.currentPage = page;
+      this.articles = getArticles(page, perHomeCount, this.allArticles);
     },
     formatDate(date) {
-      return formatDate(date)
-    }
+      return formatDate(date);
+    },
+    readTime(time) {
+      return readTime(time);
+    },
   }
 };
 </script>
@@ -88,9 +94,20 @@ export default {
     align-items: center;
     flex-wrap: wrap;
     .article-date {
+      margin-right: 12px;
       &::before {
         font-family: "FontAwesome";
         content: "\f073";
+        padding-right: 0.3em;
+      }
+    }
+    .article-read-time {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      &::before {
+        font-family: "FontAwesome";
+        content: "\f017";
         padding-right: 0.3em;
       }
     }
@@ -132,5 +149,33 @@ export default {
   padding: 25px 0 0;
   font-size: 14px;
   text-align: center;
+}
+@media screen and (prefers-color-scheme: dark) {
+  .article {
+    .article-title {
+      color: rgb(211, 209, 209);
+      .link {
+        color: rgb(195, 193, 193);
+      }
+    }
+    .article-meta {
+      color: #c1c8cd;
+    }
+    .article-content {
+      color: rgb(236, 226, 226);
+    }
+    .article-more {
+      .link {
+        color: rgb(232, 230, 230);
+        border: 1px solid #ddd;
+        &:hover {
+          background: #858383;
+        }
+      }
+    }
+  }
+  .navigator {
+    border-top: 1px solid rgb(173, 172, 172);
+  }
 }
 </style>

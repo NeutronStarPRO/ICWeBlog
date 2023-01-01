@@ -33,10 +33,10 @@ a {
   }
 }
 
-/* ul,
+ul,
 ol {
   list-style: none;
-} */
+}
 
 button,
 input {
@@ -49,4 +49,19 @@ input {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    color: rgb(237, 237, 237);
+    background-color: rgb(37, 37, 37);
+  }
+  a {
+    color: rgb(235, 230, 230);
+    text-decoration: none;
+    transition: all .3s ease-in;
+    &:hover {
+      color: rgb(255, 255, 255);
+    }
+  }
 }

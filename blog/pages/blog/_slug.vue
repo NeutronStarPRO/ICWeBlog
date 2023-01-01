@@ -13,6 +13,9 @@
             {{category}}
           </nuxt-link>
         </div>
+        <div class="article-read-time">
+            {{ readTime(article.attributes.time) }}
+        </div>
       </div>
       <div class="article-content markdown-body" v-html="article.html"></div>
       <div class="article-copyright"></div>
@@ -23,10 +26,10 @@
       </div>
       <div class="article-nav">
         <nuxt-link class="link" to="/">
-          上一篇文章
+          Back to Home
         </nuxt-link>
-        <nuxt-link class="link" to="/">
-          下一篇文章
+        <nuxt-link class="link" to="/archives">
+          View other articles
         </nuxt-link>
       </div>
     </article>
@@ -34,7 +37,7 @@
 </template>
 
 <script>
-import { getArticles, getPagerCount, formatDate } from '@/util'
+import { formatDate, readTime } from '@/util';
 
 export default {
   async asyncData({ params }) {
@@ -47,7 +50,10 @@ export default {
   },
   methods: {
     formatDate(date) {
-      return formatDate(date)
+      return formatDate(date);
+    },
+    readTime(time) {
+      return readTime(time);
     }
   },
 };
@@ -83,7 +89,7 @@ export default {
       align-items: center;
       flex-wrap: wrap;
       .link {
-        margin-right: 6px;
+        margin-right: 12px;
       }
       &::before {
         font-family: "FontAwesome";
@@ -91,9 +97,19 @@ export default {
         padding-right: 0.3em;
       }
     }
+    .article-read-time {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      &::before {
+        font-family: "FontAwesome";
+        content: "\f017";
+        padding-right: 0.3em;
+      }
+    }
   }
   .article-content {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.77;
     color: #444;
     padding-top: 15px;
@@ -138,6 +154,25 @@ export default {
         font-family: "FontAwesome";
         content: "\f0da";
         padding-left: 0.3em;
+      }
+    }
+  }
+}
+@media screen and (prefers-color-scheme: dark) {
+  .article {
+    .article-title {
+      color: rgb(217, 217, 217);
+    }
+    .article-meta {
+      color: rgb(217, 217, 217);
+    }
+    .article-content {
+      color: rgb(217, 217, 217);
+    }
+    .article-nav {
+      border-top: 1px solid rgb(169, 168, 168);
+      .link {
+        color: rgb(231, 231, 231);
       }
     }
   }

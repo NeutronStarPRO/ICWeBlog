@@ -21,17 +21,17 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'NeutronStar的博客',
+    title: 'NeutronStar\'s blog',
     meta: [
       { charset: 'utf-8' },
       { name: 'apple-mobile-web-app-capable', content: 'yes' },
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover' },
-      { hid: 'description', name: 'description', content: 'NeutronStar | 个人博客 | Blog | Markdown | Vue | Nuxt' }
+      { hid: 'description', name: 'description', content: 'NeutronStar | 个人博客 | Blog | Markdown | Nuxt' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
   },
   /*

@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import Header from './component/Header'
-import Main from './component/Main'
-import Aside from './component/Aside'
-import Footer from './component/Footer'
+import Header from './component/Header';
+import Main from './component/Main';
+import Aside from './component/Aside';
+import Footer from './component/Footer';
 
 export default {
   components: {
@@ -31,7 +31,7 @@ export default {
 <style lang="scss" scoped>
 .layout {
   padding: 0 60px;
-  max-width: 1150px;
+  max-width: 1157px;
   margin: 0 auto;
   .container {
     display: flex;

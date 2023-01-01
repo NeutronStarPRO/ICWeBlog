@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <h1 class="title">正在查看 {{keyword}} 标签下的文章</h1>
+    <h1 class="title">Viewing articles under the {{keyword}} tag</h1>
     <div class="archive">
       <div class="archive-list">
         <div class="archive-item" v-for="archive in archives" :key="archive.date">
@@ -18,24 +18,24 @@
 </template>
 
 <script>
-import { formatArticles, formatDate } from '@/util'
+import { formatArticles, formatDate } from '@/util';
 export default {
   async asyncData({isDev, route, store, env, params, query, req, res, redirect, error}) {
-    const context = await require.context('~/content/blog', true, /\.md$/)
+    const context = await require.context('~/content/blog', true, /\.md$/);
     let articles = await context.keys().map(key => ({
       ...context(key),
       date: context(key).attributes.date,
       path: `/blog/${key.replace('.md', '').replace('./', '')}`
     }))
-    const keyword = route.params.slug
+    const keyword = route.params.slug;
     articles = articles.filter(article => {
-      return article.attributes.tags.indexOf(keyword) !== -1
+      return article.attributes.tags.indexOf(keyword) !== -1;
     })
-    return { archives: formatArticles(articles, articles.length), keyword }
+    return { archives: formatArticles(articles, articles.length), keyword };
   },
   methods: {
     formatDate(date) {
-      return formatDate(date)
+      return formatDate(date);
     }
   }
 }
@@ -52,7 +52,7 @@ export default {
 .archive {
   padding: 25px 0 15px;
   .archive-list {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 2;
     padding-bottom: .8em;
     .archive-item {
@@ -70,6 +70,11 @@ export default {
         }
       }
     }
+  }
+}
+@media screen and (prefers-color-scheme: dark) {
+  .title {
+    color: rgb(217, 217, 217);
   }
 }
 </style>

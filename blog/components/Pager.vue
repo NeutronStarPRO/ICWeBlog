@@ -1,7 +1,7 @@
 <template>
   <div class="pager" :class="{hide: hideIfOnePage && totalPage <= 1}">
     <span class="pager-item prev-nav" @click="onClickPage(currentPage - 1)" :class="{hidden: currentPage === 1}">
-     上一页
+      Previous page
     </span>
     <template v-for="(page, index) in pages">
       <template v-if="page === currentPage">
@@ -15,7 +15,7 @@
       </template>
     </template>
     <span class="pager-item next-nav" @click="onClickPage(currentPage + 1)" :class="{hidden: currentPage === totalPage}">
-      下一页
+      Next page
     </span>
   </div>
 </template>
@@ -47,37 +47,37 @@ export default {
         this.currentPage - 2,
         this.currentPage + 1,
         this.currentPage + 2
-      ]
-      let u = unique(pages.filter((n) => n >= 1 && n <= this.totalPage).sort((a, b) => a - b))
+      ];
+      let u = unique(pages.filter((n) => n >= 1 && n <= this.totalPage).sort((a, b) => a - b));
       let u2 = u.reduce((prev, current, index, array) => {
-        prev.push(current)
+        prev.push(current);
         if (
           array[index + 1] !== undefined &&
           array[index + 1] - array[index] > 1
         ) {
-          prev.push('···')
+          prev.push('···');
         }
-        return prev
+        return prev;
       }, [])
-      return u2
+      return u2;
     }
   },
   methods: {
     onClickPage (n) {
       if (n >= 1 && n <= this.totalPage) {
-        this.$emit('update:currentPage', n)
+        this.$emit('update:currentPage', n);
       }
     }
   }
 }
 
 function unique (array) {
-  // return [...new Set(array)]
-  const object = []
+  // return [...new Set(array)];
+  const object = [];
   array.map(number => {
-    object[number] = true
+    object[number] = true;
   })
-  return Object.keys(object).map(s => parseInt(s, 10))
+  return Object.keys(object).map(s => parseInt(s, 10));
 }
 </script>
 
@@ -141,6 +141,21 @@ function unique (array) {
       &.hidden {
         display: none;
       }
+    }
+  }
+}
+@media screen and (prefers-color-scheme: dark) {
+  .pager-item {
+    background-color: rgb(49, 48, 48) !important;
+    color: rgb(215, 213, 213) !important;
+    border: 1px solid #ddd !important;
+    &:not(.separator):hover {
+      background-color: #a7a3a3 !important;
+      border-color: rgb(104, 107, 107) !important;
+    }
+    &:not(.separator).current {
+      background-color: #a9a8a8 !important;
+      border-color: rgb(118, 112, 112) !important;
     }
   }
 }
