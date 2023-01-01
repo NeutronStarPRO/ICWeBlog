@@ -1,6 +1,6 @@
 ## 把 MyICBlog 项目部署到 IC 主网
 
-#### 如何安装 dfx 开发工具（ IC 开发 SDK , 最好是 0.9.3 版的 ）
+#### 如何安装 dfx 开发工具（ IC 开发 SDK，建议安装0.9.3版，如果安装更高版本的dfx，就需要自己创建一个新项目然后稍作修改替换这里的MyICBlog文件夹 ）
 
 https://internetcomputer.org/docs/current/developer-docs/build/install-upgrade-remove
 
@@ -108,7 +108,7 @@ dfx deploy --network ic
 
 <br>
 
-#### dfx 常用命令  (dfx版本：0.9.3)
+#### dfx 常用命令
 
 ```bash
 # 查询dfx版本
@@ -155,8 +155,8 @@ dfx ledger --network ic create-canister $(dfx identity get-principal) --amount 1
 dfx identity --network ic deploy-wallet <canister-id>
 # 当前钱包的cycles余额
 dfx wallet --network ic balance
-# 给默认身份下的cycles钱包充值（后面那个数量根据情况调整）
-dfx wallet --network ic send $(dfx identity default get-wallet) 80000590000
+# 给钱包充值
+dfx wallet --network ic send $(dfx --identity developer identity get-wallet) 80000590000
 ```
 
 
